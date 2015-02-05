@@ -1,0 +1,31 @@
+body {
+	margin: 10;
+}
+
+#content {
+	max-width: 948px;
+	margin: 0 auto;	
+	background-color: black;
+}
+
+h1 {
+	color: #f8981C;
+	font-size: 36px;
+	font-family: "Courier New";
+	padding: 0px 20px;
+	font-weight: normal;
+}
+.row {
+	display: flex;
+	height: 50%;
+}
+p {
+	color: #f8981C;
+	font-size: 24px;
+	font-family: "Courier New";
+}
+.image > img {
+	border: 4px solid #f8981C;
+	margin: 20px;
+}
+

@@ -1,0 +1,35 @@
+body {
+	margin: 0;
+}
+#content {
+	max-width: 948px;
+	margin: 0 auto;	
+}
+
+h1 {
+	background-color: #f8981C;
+	color: white;
+	font-size: 48px;
+	font-family: Helvetica;
+	text-align: center;
+	padding: 20px;
+	margin: 0;
+
+}
+
+.row {
+	display: flex;
+	flex-direction: row-reverse;
+	height: 100%
+}
+
+p {
+	color: grey;
+	font-size: 24px;
+	font-family: Helvetica;
+}
+
+.image > img {
+	border: 6px black dotted;
+	margin-left: 20px;
+}

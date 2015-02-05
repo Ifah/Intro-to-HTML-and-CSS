@@ -1,0 +1,67 @@
+body {
+	margin: 0;
+}
+#banner {
+	color: green;
+	margin: 20px;
+}
+#content {
+	max-width: 900px;
+	height: 100%;
+	margin: 0px auto;
+}
+
+.surprise, .surprise2 {
+border-radius: 50%;
+display: inline-block;
+}
+
+#first {
+width: 200px;
+height: 200px;
+background: green;
+}
+
+#second {
+width: 125px;
+height: 125px;
+background: red;
+margin-left: 200px;
+margin-right: 50px;
+}
+
+#playButton {
+	width: 200px;
+	height: 200px;
+	position: relative;
+	background: rgb(101, 156, 101);
+}
+
+#playTriangle {
+	width: 0px; 
+	height: 0px; 
+	border-bottom: 35px solid transparent;  /* left arrow slant */
+	border-top: 35px solid transparent; /* right arrow slant */
+	border-left: 35px solid #bbebb4; /* bottom, add background color here */
+	font-size: 0px;
+	line-height: 0px;
+	position: absolute;
+	top: 60px;
+	left: 90px;
+	z-index: 3;
+}
+
+#playTriangle2 {
+	width: 0px; 
+	height: 0px; 
+	border-bottom: 42px solid transparent;  /* left arrow slant */
+	border-top: 42px solid transparent; /* right arrow slant */
+	border-left: 42px solid green; /* bottom, add background color here */
+	font-size: 0px;
+	line-height: 0px;
+	position: absolute;
+	top: 54px;
+	left: 87px;
+	z-index: 2;
+}
+
